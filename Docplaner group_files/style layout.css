@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 50px;
+}
+#logoDocplaner{
+    width: 300px;
+}
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 0 2%;
+    margin-top: 10px;
+    box-shadow: 0 1px 3px 0 #ebe9e5;
+    height: 60px;
+}
+.entete{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+.entete a{
+    color: #ABABAB;
+    text-decoration: none;
+}
+#Departments{
+    position: relative;  
+
+}
+.dropDown{
+    
+        list-style-type: none;        
+        padding-top: 10px;
+        position: absolute;
+        top: 16px;
+        display: none;
+        width: 220px;
+        margin-left: -100px;        
+        box-shadow: 0 5px 10px 0 #d3cfc9;
+    }
+.dropDown li{
+        color:  #ABABAB;
+        padding: 10px;
+    }
+    #Departments:hover .dropDown{
+        display: block;
+    }
+#About a{
+ color: #00B39B;
+}
+.making{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;  
+    align-items: center;  
+}
+#logo{
+    display:flex;
+    margin-bottom: 40px;
+    margin-top: 15px;    
+}
+
+.making h1{
+    color: #00B39B;
+    margin-bottom : 30px; 
+    font-family: 'Work Sans';
+    font-weight: 300;
+    letter-spacing: -.3px;
+    font-size:  2.125rem;
+    color:#00b39b;
+}
+
+.container {
+    display: flex;
+    justify-content:space-around ;    
+    width: 70%;
+}
+.container p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.75;
+    width: 60%;
+    padding: 30px;
+    color:#747474;
+}
+#parag1{   
+    display: flex;
+    justify-content:flex-start;
+    text-align: flex-start;    
+}
+#parag2{   
+    display: flex;
+    justify-content: flex-end;
+    text-align: flex-end;
+}
+.colonne{
+    /*list-style: none;*/
+    margin: 50px;
+    display: flex;
+    justify-content:space-between;
+    align-content: center; 
+    text-decoration: none;  
+} 
+
+.clinics{
+    justify-content: space-around;
+    align-items: center;
+    background: #323D49;           
+    margin: 10px;
+    padding: 20px;
+    font-size: 25px;   
+    list-style: none;
+    width: 30%;
+    border-radius: 10px;
+}
+.Forclinics{
+    list-style-type: none;
+}
+
+.doctors{
+    flex:1 1 0;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    background: #0858ae;           
+    margin: 10px;
+    padding: 20px;
+    font-size: 25px;
+    width: 30%;
+    border-radius: 10px;
+}
+.Fordoctors{
+    list-style: none;
+}
+.patients{
+    flex:1 1 0;
+    justify-content: space-around;
+    align-items: center;
+    background: #1AD1B9;           
+    margin: 10px;
+    padding: 20px;
+    font-size: 25px;
+    position:relative;
+    width: 30%;
+    border-radius: 10px;
+}
+.patients li,h3{
+    color: white;
+}
+.colonne a{
+    color: white;
+    text-decoration: none;
+}
+.Forpatients{
+    list-style: none;
+}
+.dropDowncountry{
+    list-style-type: none;
+}
+.log{
+    display: flex;
+}
+.h1{
+    display: flex;
+    justify-content:flex-start ;
+    flex-direction: colum;
+}
+.ligne1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
